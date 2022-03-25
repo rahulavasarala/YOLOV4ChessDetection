@@ -1,0 +1,3 @@
+Link to the Colab Notebook that runs the object detector:
+
+https://colab.research.google.com/drive/1y1DXCSF1gBsbbKcDqJjf---TgzeCLep0?usp=sharing
