@@ -1,7 +1,0 @@
-This file is optional and can be used to format data before actually training and testing it with the object detection model. It is strictly for preprocessing, to make training, test, validate data more clean. 
-
-It has two features, which are the following: Let us say you find a dataset off of a website that is good, but only want to train on a select amount of classes instead of everything.Then you can use this tool to remove certain annotations from the test, train, and validate datasets that correspond to classes you don't want to care about. Also, this file names every picture and annotation in a neat and organized way. You can also use it to switch the yolo annotation's numbers corresponding to classes. 
-
-Usage: Put data_formatter.py in the same directory as your train, test, and validate folders. Change the setName variable to match the name of whatever 
-folder you want to format. Change the annotation switch array to map the annotation's numbers to what you actually want them to be. EX. If I wanted to 
-change all annotations corresponding to N in "test"to M, I would setName to "test", and set annotation_switch_array[N] = M. Then run the script, and wallah, you will have a nicely formatted "test" folder called "testF" with all N annotations changed to M. if you want to get rid of all the annotations corresponding to N in test, set annotation_switch_arr[N] = -1. If there are M annotations, you need to fully fill out annotation_switch_arr for all indices from 0-M-1.
