@@ -1,3 +1,7 @@
-This is the public link to get the yolov4.zip and ColabNotebooks.zip files that are needed to be in your drive(home directory) to run the object detector code:
+This is the public link to get the yolov4 and ColabNotebooks files that are needed to be in your drive(home directory) to run the object detector code:
 
-https://drive.google.com/drive/folders/1OP5P82Vm3-QsdQy9OqrtcXMS1atuRqeN?usp=sharing
+https://drive.google.com/drive/folders/1K2Ob904dVW0DO4CK3xRPt1MtE1oIMwGJ?usp=sharing -- for ColabNotebooks folder
+
+https://drive.google.com/drive/folders/1a0671D6qYHP8nkPTKhfoeQpHhiTT7NBT?usp=sharing -- for yolov4 folder
+
+
