@@ -25,10 +25,8 @@ for file in os.listdir("./{dest}".format(dest = setName)):
         #write the lines to the new annotation file
 
         stem = file[0:-4]
-        print(stem)
         annotFile = open("./{dest}/{name}-{x}.txt".format(dest = f_folder_name,name = setName, x = jpgCount), 'w')
         readableFile = open("./{dest}/{filename}.txt".format(dest = setName, filename = stem), 'r')
-        print("This runs")
 
         line = readableFile.readline()
 
@@ -46,7 +44,6 @@ for file in os.listdir("./{dest}".format(dest = setName)):
 
 
         jpgCount += 1
-        print(jpgCount)
         annotFile.close()
         readableFile.close()
 
